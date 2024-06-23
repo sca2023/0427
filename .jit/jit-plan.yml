@@ -1,5 +1,6 @@
 name: My plan
 level: beginner
+update_id: 29956ff6-d559-48a1-9c07-aa44179ae95d
 author: Jit
 version: 0.1
 owners:
@@ -9,11 +10,8 @@ references:
 tags: []
 items:
   - name: Scan your code for vulnerabilities (SAST)
-    uses: >-
-      jitsecurity-controls/jit-plans/items/code/item-code-vulnerability.yml@latest
+    uses: jitsecurity-controls/jit-plans/items/code/item-code-vulnerability.yml@latest
   - name: Scan your code dependencies for vulnerabilities (SCA)
     uses: jitsecurity-controls/jit-plans/items/code/item-dependency-check.yml@latest
   - name: Generate a Software Bill of Materials (SBOM)
-    uses: >-
-      jitsecurity-controls/jit-plans/items/code/item-software-bill-of-materials.yml@latest
-
+    uses: jitsecurity-controls/jit-plans/items/code/item-software-bill-of-materials.yml@latest
